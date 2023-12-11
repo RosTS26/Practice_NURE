@@ -1,0 +1,104 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Aling, sans-serif;
+}
+
+.registration {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 15%;
+}
+
+a {
+	color: #7c9ab7;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+p {
+	margin-top: 10px;
+	font-size: 12px;
+	color: #8F8F8F;
+	text-align: center;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	width: 280px;
+	border: 1px solid #006262;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.msg, .msgError {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.msgError p, .msg p {
+	border-radius: 5px;
+	padding: 10px;
+	width: 280px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.msgError p {
+	border: 2px solid #ffa908;
+	color: #EB4C42;
+}
+
+.msg p {
+	border: 2px solid #75EBA8;
+	color: #395870;
+}
+
+fieldset {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+input {
+	border-radius: 5px;
+}
+
+.account-info {
+	padding: 18px 20px 10px 20px;
+}
+
+.account-info label {
+	color: #395870;
+	display: block;
+	font-weight: bold;
+}
+
+.account-info input{
+	background: #ffffff;
+	border: 1px solid #006262;
+	padding: 6px;
+	margin: 10px 0;
+	width: 100%;
+}
+
+.account-action{
+	background: #f0f0f2;
+	border-top: 1px solid #006262;
+	padding: 20px;
+}
+
+.account-action .btn{
+	background: linear-gradient(#49708f, #293f50);
+	border: 0;
+	color: #fff;
+	cursor: pointer;
+	font-weight: bold;
+	width: 100%;
+	padding: 8px 16px;
+}

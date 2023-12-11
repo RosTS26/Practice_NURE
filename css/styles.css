@@ -1,0 +1,67 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Aling, sans-serif;
+}
+
+.menuLog {
+	display: block;
+	margin: 0 auto;
+	margin-top: 200px;
+	padding-bottom: 30px;
+	width: 280px;
+	border: 1px solid #006262;
+	border-radius: 5px;
+}
+
+p {
+	text-align: center;
+	margin-top: 30px;
+	font-size: 30px;
+	color: #49708f;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+}
+
+canvas, .btn {
+	display: block;
+	margin: 0 auto;
+}
+
+.btn {
+	background: linear-gradient(#49708f, #293f50);
+	border: 0;
+	color: #fff;
+	cursor: pointer;
+	font-size: 20px;
+	width: 180px;
+	padding: 10px 0;
+	margin-top: 30px;
+}
+
+.data {
+	display: none;
+}
+
+.rez {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin-top: 30px;
+}
+
+th, td {
+	text-align: center;
+	width: 150px;
+	padding: 5px 10px;
+}
+
+.admin input {
+	background: linear-gradient(#E5AE57, #C9822C);
+}

@@ -1,0 +1,238 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Aling, sans-serif;
+}
+
+.adminPanelrow {
+	display: flex;
+	/*justify-content: center;*/
+}
+
+.adminPanelrow {
+	display: flex;
+	flex-direction: row;
+}
+
+.blockPanel {
+	display: block;
+	margin: 50px 0 0 50px;
+	padding-bottom: 30px;
+	width: 480px;
+	border: 1px solid #006262;
+	border-radius: 5px;
+}
+
+.element {
+	display: flex;
+	flex-direction: row;
+	margin: 10px 10px;
+}
+
+.element p, .element input {
+	font-size: 20px;
+	color: #000;
+	width: 220px;
+}
+
+.element input {
+	padding: 0 5px;	
+	margin-left: 10px;
+}
+
+textarea {
+	font-size: 18px;
+	overflow: auto;
+	resize: none;
+	width: 220px;
+	height: 100px;
+	padding: 5px 5px;
+	margin-left: 10px;
+}
+
+textarea:focus {
+	outline: none;
+}
+
+.header_P {
+	margin: 20px 10px;
+	font-size: 30px;
+	color: #49708f;
+}
+
+.choice-radio {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 0 55px 20px 55px;
+}
+
+.choice-radio input {
+	display: none;
+}
+
+.choice-radio label {
+	cursor: pointer;
+	padding: 10px;
+	font-size: 16px;
+	text-align: center;
+	color: #ffffff;
+	background: linear-gradient(#49708f, #293f50);
+	border-radius: 10px;
+}
+
+.btn {
+	display: block;
+	margin: 0 auto;
+	background: linear-gradient(#49708f, #293f50);
+	border: 0;
+	border-radius: 10px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 20px;
+	width: 150px;
+	padding: 10px 0;
+	margin-top: 30px;
+}
+
+.checkbox {
+	display: flex;
+	justify-content: center;
+	color: #006262;
+	font-size: 16px;
+	margin-top: 10px;
+}
+
+.checkbox input {
+	margin-right: 5px;
+	transform: scale(1.5);
+}
+
+.res {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	font-size: 24px;
+	color: #F07427;
+	margin: 0;
+}
+
+th, td {
+	text-align: center;
+	width: 150px;
+	padding: 5px 10px;
+}
+
+/* ===== Users chat === */
+
+.blockPanelChat {
+	display: block;
+	width: 1010px;
+	margin: 50px 0 50px 50px;
+	padding-bottom: 10px;
+	border: 1px solid #006262;
+	border-radius: 5px;
+}
+
+.container {
+	display: flex;
+	margin: 0 10px;
+}
+
+.users_info {
+	flex-basis: 33%;
+	background: #C8C8C8;
+	border-radius: 10px;
+	margin-right: 10px;
+	max-height: 510px;
+	overflow: auto;
+}
+
+.field_for_message {
+	flex-basis: 66%;
+}
+
+/*===*/
+/* Стили для контейнера со списком юзеров */
+
+li {
+	list-style: none;
+	display: block;
+	margin: 0 auto;
+	margin-top: 10px;
+	cursor: pointer;
+	background: #F0F0F0;
+	width: 70%;
+	text-align: center;
+	padding: 8px 16px;
+	font-size: 20px;
+	border-radius: 10px;
+}
+
+/*===*/
+/* Стили для контейнера чата */
+.chat-container {
+	display: flex;
+	flex-direction: column;
+	overflow: auto;
+	width: 100%;
+	height: 450px;
+	margin-bottom: 10px;
+	padding: 20px;
+	background-color: #f5f5f5;
+	border-radius: 10px;
+}
+
+.message {
+	margin-bottom: 10px;
+	padding: 10px;
+	background-color: #fff;
+	border-radius: 10px;
+	max-width: 67%;
+}
+
+.sent-message {
+	background-color: #c1e2fc;
+	align-self: flex-end;
+}
+
+.received-message {
+	background-color: #e5e5e5;
+	align-self: flex-start;
+}
+
+.message-text {
+	color: #333;
+}
+
+.message-time {
+	font-size: 12px;
+	color: #999;
+}
+
+.text-and-btn {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	background-color: #C8C8C8;
+	border-radius: 10px;
+}
+
+.text-and-btn textarea {
+	width: 100%;
+	height: auto;
+	padding: 5px 5px;
+	margin-right: 10px;
+	border-radius: 10px;
+	border: 0;
+	background-color: #C8C8C8;
+}
+
+.text-and-btn .btn {
+	margin: 0;
+	margin-right: 5px;
+	border-radius: 10px;
+}
